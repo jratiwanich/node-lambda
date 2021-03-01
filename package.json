@@ -1,0 +1,23 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "instruction to deploy node to lambda",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy --aws-profile your-aws-profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jratiwanich/node-lambda.git"
+  },
+  "keywords": [
+    "lambda"
+  ],
+  "author": "Jak Ratiwanich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jratiwanich/node-lambda/issues"
+  },
+  "homepage": "https://github.com/jratiwanich/node-lambda#readme"
+}
