@@ -1,5 +1,6 @@
 # Basic SERVERLESS wth Lambda
 
+### This is how to code and deploy NodeJs to AWS Lambda
 1. create a project:
 ```
 serverless create --template aws-nodejs --path node-basic

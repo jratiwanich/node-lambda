@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports.purchase = async (event) => {
+  console.log("==EXECUTING PURCHASE:",event);
   return {
     statusCode: 200,
     body: JSON.stringify({
@@ -14,6 +15,7 @@ module.exports.purchase = async (event) => {
 };
 
 module.exports.refund = async (event) => {
+  console.log("==EXECUTING REFUND:",event);
   return {
     statusCode: 200,
     body: JSON.stringify({
